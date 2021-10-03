@@ -1,0 +1,8 @@
+section:not(.active) {
+  transform: translateX(-120%);
+}
+
+.active {
+  transition: transform 1.5s cubic-bezier(0.18, 0.89, 0.32, 1.28);
+  transform: translateX(0);
+}

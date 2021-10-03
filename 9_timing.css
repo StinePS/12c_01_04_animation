@@ -1,0 +1,32 @@
+#ball1 {
+  animation: move_right 2s linear infinite;
+}
+
+#ball2 {
+  animation: move_right 2s ease infinite;
+}
+
+#ball3 {
+  animation: move_right 2s ease-in infinite;
+}
+
+#ball4 {
+  animation: move_right 2s ease-out infinite;
+}
+
+#ball5 {
+  animation: move_right 2s ease-in-out infinite;
+}
+
+#ball6 {
+  animation: move_right 2s steps(6, end) infinite;
+}
+
+@keyframes move_right {
+  0% {
+    transform: translate(0vw);
+  }
+  100% {
+    transform: translate(49vw);
+  }
+}

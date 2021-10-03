@@ -1,0 +1,14 @@
+.addtocart {
+  animation: move_right 1s linear 1;
+  animation-iteration-count: infinite;
+  offset-path: path("m 0,0 c 0 0 0 0 220 -140");
+}
+
+@keyframes move_right {
+  0% {
+    transform: translate(0);
+  }
+  100% {
+    transform: translate(220px, -140px);
+  }
+}

@@ -1,0 +1,46 @@
+.bounce {
+  animation: bounce 5s infinite;
+}
+
+@keyframes bounce {
+  0% {
+    transform: translateY(0);
+    animation-timing-function: ease-in;
+  }
+  48% {
+    transform: translateY(var(--bottom));
+  }
+  50% {
+    transform: translateY(var(--bottom));
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.squash {
+  animation: squash 5s infinite;
+  transform-origin: center bottom;
+}
+
+@keyframes squash {
+  0% {
+  }
+  /* Ball should keep original scale until hitting the ground */
+  43% {
+    transform: scale(1, 1);
+  }
+  45% {
+    transform: scale(0.95, 1.05);
+  }
+
+  /* Squash the ball by making it wider and flatter = X bigger and Y smaller */
+  52% {
+    transform: scale(1.2, 0.8) translateY(40px);
+  }
+  55% {
+    transform: scale(1, 1);
+  }
+  100% {
+  }
+}

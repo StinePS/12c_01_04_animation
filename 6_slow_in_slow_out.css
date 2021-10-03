@@ -1,0 +1,9 @@
+.show {
+  transition: transform 1.5s cubic-bezier(0.79, 0.14, 0.15, 0.86);
+  transform: translateX(0);
+}
+
+.hide {
+  transition: transform 1.5s cubic-bezier(0.79, 0.14, 0.15, 0.86);
+  transform: translateX(-120%);
+}
