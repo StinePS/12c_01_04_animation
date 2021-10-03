@@ -1,3 +1,5 @@
+See examples at [GitHub pages] (https://stineps.github.io/12c_01_04_animation/)
+
 # principlesofanimation
 
 These are 12 exercises for the Principles of Animation
