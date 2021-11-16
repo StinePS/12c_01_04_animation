@@ -1,4 +1,4 @@
-See examples at [GitHub pages] (https://stineps.github.io/12c_01_04_animation/)
+See examples at [GitHub pages] https://stineps.github.io/12c_01_04_animation/
 
 # principlesofanimation
 
